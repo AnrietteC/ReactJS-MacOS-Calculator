@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  color: white;
+}
+
+.Calculator {
+  max-width: 300px;
+  margin: auto;
+  background: #838283;
+}
+
+.calculator-result__group {
+  background: #383638;
+  font-size: 3.5rem;
+  text-align: right;
+  padding: 10px;
+  font-weight: 200;
+}
+
+.calculator__keys {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #5B5B5B;
+}
+
+.calculator__key {
+  background: #838283;
+  flex-basis: 25%;
+  padding: 15px 10px;
+  border: 1px solid #5B5B5B;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.calculator__key:active {
+  background: #666566;
+}
+
+.calculator__key--header {
+  background: #434243;
+}
+
+.calculator__key--header:active {
+  background: rgb(54, 54, 54);
+}
+
+.calculator__key--operator {
+  background: #FF9F0A;
+}
+
+.calculator__key--operator:active {
+  background: rgb(206, 125, 3);
+}
+
+.calculator__key--span-2 {
+  flex-basis: 50%;
+}
+
+.calculator__key--span-3 {
+  width: 75%;
+}
+
+.calculator__key--span-4 {
+  width: 100%;
+}
